@@ -7,6 +7,7 @@ import { useStore } from '@/lib/store';
 import { authAPI } from '@/lib/api';
 import { apiEndpoints, getApiUrl } from '@/lib/apiConfig';
 import { GoogleLogin } from '@react-oauth/google';
+import { CredentialResponse } from '@react-oauth/google';
 import OTPVerification from '@/app/components/OTPVerification';
 import { toast } from 'react-toastify';
 
@@ -34,12 +35,14 @@ export default function SignupForm() {
   };
 
   // Google Sign-Up Handler
-  const handleGoogleSuccess = async (credentialResponse: any) => {
+  const handleGoogleSuccess = async (credentialResponse: CredentialResponse) => {
     setError('');
     setLoading(true);
 
     try {
-      // console.log('🔐 Verifying Google credentials...');
+      if (!credentialResponse.credential) {
+        throw new Error('Google credential is missing');
+      }
 
       const response = await fetch(getApiUrl(apiEndpoints.auth.googleVerify), {
         method: 'POST',
@@ -54,40 +57,30 @@ export default function SignupForm() {
 
       if (!response.ok) {
         const errorData = await response.json();
-        
-        // Check if account already exists (409 Conflict)
         if (response.status === 409 && errorData.accountExists) {
           const errorMsg = 'Account already exists with this email. Please sign in instead.';
           setError(errorMsg);
           toast.error(`❌ ${errorMsg}`, { autoClose: 3000 });
           throw new Error(errorMsg);
         }
-        
         throw new Error(errorData.error || 'Google signup failed');
       }
 
-      const data = await response.json();
-      
-      // console.log('✅ Google signup successful');
-      // console.log('📦 Token:', data.token);
-      // console.log('👤 User:', data.user);
+      const { token, user }: { token: string; user: User } = await response.json();
 
-      // Store token in localStorage first
-      if (typeof window !== 'undefined' && data.token) {
-        localStorage.setItem('token', data.token);
-        localStorage.setItem('user', JSON.stringify(data.user));
+      if (typeof window !== 'undefined' && token) {
+        localStorage.setItem('token', token);
+        localStorage.setItem('user', JSON.stringify(user));
       }
 
-      // Update Zustand store
-      setToken(data.token);
-      setUser(data.user);
+      setToken(token);
+      setUser(user);
 
       toast.success('✅ Google signup successful!', { autoClose: 2000 });
-      // Redirect to dashboard
       router.push('/dashboard');
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.error('Google signup error:', err);
-      const errorMsg = err.message || 'Google Sign-Up failed. Please try again.';
+      const errorMsg = (err instanceof Error) ? err.message : 'Google Sign-Up failed. Please try again.';
       setError(errorMsg);
       toast.error(`❌ ${errorMsg}`, { autoClose: 3000 });
     } finally {
@@ -102,40 +95,10 @@ export default function SignupForm() {
     console.error('Google Sign-Up error');
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setError('');
-
-    // Validation
-    if (!formData.firstName.trim() || !formData.lastName.trim()) {
-      const errorMsg = 'Please enter your full name';
-      setError(errorMsg);
-      toast.error(`❌ ${errorMsg}`, { autoClose: 3000 });
-      return;
-    }
-
-    if (formData.password !== formData.confirmPassword) {
-      const errorMsg = 'Passwords do not match';
-      setError(errorMsg);
-      toast.error(`❌ ${errorMsg}`, { autoClose: 3000 });
-      return;
-    }
-
-    if (formData.password.length < 6) {
-      const errorMsg = 'Password must be at least 6 characters';
-      setError(errorMsg);
-      toast.error(`❌ ${errorMsg}`, { autoClose: 3000 });
-      return;
-    }
-
-    if (!agreeToTerms) {
-      const errorMsg = 'Please agree to the terms and conditions';
-      setError(errorMsg);
-      toast.error(`❌ ${errorMsg}`, { autoClose: 3000 });
-      return;
-    }
-
     setLoading(true);
+    setError('');
 
     try {
       const response = await authAPI.register(
@@ -145,14 +108,18 @@ export default function SignupForm() {
         formData.password
       );
 
-      toast.success('✅ Verification email sent!', { autoClose: 2000 });
-      // Move to OTP verification step
-      setStep('otp');
-    } catch (err: any) {
-      const errorMsg = err.message || 'Signup failed. Please try again.';
+      // Handle response data
+      if (response.requiresOTP) {
+        setStep('otp');
+      } else {
+        toast.success('✅ Signup successful!', { autoClose: 2000 });
+        router.push('/dashboard');
+      }
+    } catch (err: unknown) {
+      console.error('Signup error:', err);
+      const errorMsg = (err instanceof Error) ? err.message : 'Signup failed. Please try again.';
       setError(errorMsg);
       toast.error(`❌ ${errorMsg}`, { autoClose: 3000 });
-      console.error('Signup error:', err);
     } finally {
       setLoading(false);
     }
@@ -339,4 +306,13 @@ export default function SignupForm() {
       )}
     </>
   );
+}
+
+// Define a type for the user object
+interface User {
+  id: string;
+  email: string;
+  firstName: string;
+  lastName: string;
+  emailVerified: boolean;
 }
