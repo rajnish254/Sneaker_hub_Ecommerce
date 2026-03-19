@@ -21,7 +21,7 @@ const allowedOrigins = [
   'http://localhost:3001',
   'http://127.0.0.1:3000',
   'http://127.0.0.1:3001',
-  'https://sneaker-hub-ecommerce.vercel.app/',  // Alternative Vercel frontend
+  'https://sneaker-hub-ecommerce.vercel.app', // Vercel frontend without trailing slash
   'https://sneaker-hub-ecommerce.onrender.com', // Render deployment URL
   process.env.FRONTEND_URL, // Render/other frontend URL
   process.env.CORS_ORIGIN // Alternative environment variable
@@ -46,6 +46,9 @@ app.use(cors({
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// Handle preflight requests
+app.options('*', cors());
 
 // ============== DATABASE CONNECTION ==============
 if (process.env.MONGODB_URI) {
