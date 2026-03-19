@@ -1,0 +1,374 @@
+{
+  "nike": [
+    {
+      "filename": "dunk-low-retro.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206843/sneaker-store/nike/sneaker-store/nike/dunk-low-retro.jpg",
+      "public_id": "sneaker-store/nike/sneaker-store/nike/dunk-low-retro",
+      "alt": "nike - dunk-low-retro"
+    },
+    {
+      "filename": "nike-air-force-1-low.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206845/sneaker-store/nike/sneaker-store/nike/nike-air-force-1-low.jpg",
+      "public_id": "sneaker-store/nike/sneaker-store/nike/nike-air-force-1-low",
+      "alt": "nike - nike-air-force-1-low"
+    },
+    {
+      "filename": "nike-air-jordan-1-low.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206846/sneaker-store/nike/sneaker-store/nike/nike-air-jordan-1-low.jpg",
+      "public_id": "sneaker-store/nike/sneaker-store/nike/nike-air-jordan-1-low",
+      "alt": "nike - nike-air-jordan-1-low"
+    },
+    {
+      "filename": "nike-air-max-270.jpg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206847/sneaker-store/nike/sneaker-store/nike/nike-air-max-270.jpg",
+      "public_id": "sneaker-store/nike/sneaker-store/nike/nike-air-max-270",
+      "alt": "nike - nike-air-max-270"
+    },
+    {
+      "filename": "nike-air-max-90-essentials.jpg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206848/sneaker-store/nike/sneaker-store/nike/nike-air-max-90-essentials.jpg",
+      "public_id": "sneaker-store/nike/sneaker-store/nike/nike-air-max-90-essentials",
+      "alt": "nike - nike-air-max-90-essentials"
+    },
+    {
+      "filename": "nike-air-max-97.jpg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206850/sneaker-store/nike/sneaker-store/nike/nike-air-max-97.jpg",
+      "public_id": "sneaker-store/nike/sneaker-store/nike/nike-air-max-97",
+      "alt": "nike - nike-air-max-97"
+    },
+    {
+      "filename": "nike-blazer-mid-77.jpg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206851/sneaker-store/nike/sneaker-store/nike/nike-blazer-mid-77.jpg",
+      "public_id": "sneaker-store/nike/sneaker-store/nike/nike-blazer-mid-77",
+      "alt": "nike - nike-blazer-mid-77"
+    },
+    {
+      "filename": "nike-metcon-9.jpg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206853/sneaker-store/nike/sneaker-store/nike/nike-metcon-9.jpg",
+      "public_id": "sneaker-store/nike/sneaker-store/nike/nike-metcon-9",
+      "alt": "nike - nike-metcon-9"
+    },
+    {
+      "filename": "nike-vaporfly-3.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206853/sneaker-store/nike/sneaker-store/nike/nike-vaporfly-3.jpg",
+      "public_id": "sneaker-store/nike/sneaker-store/nike/nike-vaporfly-3",
+      "alt": "nike - nike-vaporfly-3"
+    },
+    {
+      "filename": "nike-zoom-vomero-5.jpg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206854/sneaker-store/nike/sneaker-store/nike/nike-zoom-vomero-5.jpg",
+      "public_id": "sneaker-store/nike/sneaker-store/nike/nike-zoom-vomero-5",
+      "alt": "nike - nike-zoom-vomero-5"
+    }
+  ],
+  "addidas": [
+    {
+      "filename": "addidas-nmd_r1-v3.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206855/sneaker-store/addidas/sneaker-store/addidas/addidas-nmd_r1-v3.jpg",
+      "public_id": "sneaker-store/addidas/sneaker-store/addidas/addidas-nmd_r1-v3",
+      "alt": "addidas - addidas-nmd_r1-v3"
+    },
+    {
+      "filename": "addidas-stan-smith-lux.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206856/sneaker-store/addidas/sneaker-store/addidas/addidas-stan-smith-lux.jpg",
+      "public_id": "sneaker-store/addidas/sneaker-store/addidas/addidas-stan-smith-lux",
+      "alt": "addidas - addidas-stan-smith-lux"
+    },
+    {
+      "filename": "addidas-ultraboost-light.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206857/sneaker-store/addidas/sneaker-store/addidas/addidas-ultraboost-light.jpg",
+      "public_id": "sneaker-store/addidas/sneaker-store/addidas/addidas-ultraboost-light",
+      "alt": "addidas - addidas-ultraboost-light"
+    },
+    {
+      "filename": "adizero-pro-3.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206858/sneaker-store/addidas/sneaker-store/addidas/adizero-pro-3.jpg",
+      "public_id": "sneaker-store/addidas/sneaker-store/addidas/adizero-pro-3",
+      "alt": "addidas - adizero-pro-3"
+    },
+    {
+      "filename": "campus-oo.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206859/sneaker-store/addidas/sneaker-store/addidas/campus-oo.jpg",
+      "public_id": "sneaker-store/addidas/sneaker-store/addidas/campus-oo",
+      "alt": "addidas - campus-oo"
+    },
+    {
+      "filename": "forum-low.jpg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206860/sneaker-store/addidas/sneaker-store/addidas/forum-low.jpg",
+      "public_id": "sneaker-store/addidas/sneaker-store/addidas/forum-low",
+      "alt": "addidas - forum-low"
+    },
+    {
+      "filename": "gazelle-indoor.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206861/sneaker-store/addidas/sneaker-store/addidas/gazelle-indoor.jpg",
+      "public_id": "sneaker-store/addidas/sneaker-store/addidas/gazelle-indoor",
+      "alt": "addidas - gazelle-indoor"
+    },
+    {
+      "filename": "handball-specail.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206862/sneaker-store/addidas/sneaker-store/addidas/handball-specail.jpg",
+      "public_id": "sneaker-store/addidas/sneaker-store/addidas/handball-specail",
+      "alt": "addidas - handball-specail"
+    },
+    {
+      "filename": "superstar-xlg.jpg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206864/sneaker-store/addidas/sneaker-store/addidas/superstar-xlg.jpg",
+      "public_id": "sneaker-store/addidas/sneaker-store/addidas/superstar-xlg",
+      "alt": "addidas - superstar-xlg"
+    },
+    {
+      "filename": "ultraboost-light.jpg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206872/sneaker-store/addidas/sneaker-store/addidas/ultraboost-light.jpg",
+      "public_id": "sneaker-store/addidas/sneaker-store/addidas/ultraboost-light",
+      "alt": "addidas - ultraboost-light"
+    }
+  ],
+  "Asics": [
+    {
+      "filename": "asics-ex89-basketball.png",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206873/sneaker-store/Asics/sneaker-store/Asics/asics-ex89-basketball.png",
+      "public_id": "sneaker-store/Asics/sneaker-store/Asics/asics-ex89-basketball",
+      "alt": "Asics - asics-ex89-basketball"
+    },
+    {
+      "filename": "asics-gel-1130-silver.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206874/sneaker-store/Asics/sneaker-store/Asics/asics-gel-1130-silver.jpg",
+      "public_id": "sneaker-store/Asics/sneaker-store/Asics/asics-gel-1130-silver",
+      "alt": "Asics - asics-gel-1130-silver"
+    },
+    {
+      "filename": "asics-gel-kayano-30.jpg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206876/sneaker-store/Asics/sneaker-store/Asics/asics-gel-kayano-30.jpg",
+      "public_id": "sneaker-store/Asics/sneaker-store/Asics/asics-gel-kayano-30",
+      "alt": "Asics - asics-gel-kayano-30"
+    },
+    {
+      "filename": "asics-gel-lyte-3.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206877/sneaker-store/Asics/sneaker-store/Asics/asics-gel-lyte-3.jpg",
+      "public_id": "sneaker-store/Asics/sneaker-store/Asics/asics-gel-lyte-3",
+      "alt": "Asics - asics-gel-lyte-3"
+    },
+    {
+      "filename": "asics-gel-nimbus-26.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206878/sneaker-store/Asics/sneaker-store/Asics/asics-gel-nimbus-26.jpg",
+      "public_id": "sneaker-store/Asics/sneaker-store/Asics/asics-gel-nimbus-26",
+      "alt": "Asics - asics-gel-nimbus-26"
+    },
+    {
+      "filename": "asics-gel-nyc-cream.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206879/sneaker-store/Asics/sneaker-store/Asics/asics-gel-nyc-cream.jpg",
+      "public_id": "sneaker-store/Asics/sneaker-store/Asics/asics-gel-nyc-cream",
+      "alt": "Asics - asics-gel-nyc-cream"
+    },
+    {
+      "filename": "asics-gel-quantum-360.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206880/sneaker-store/Asics/sneaker-store/Asics/asics-gel-quantum-360.jpg",
+      "public_id": "sneaker-store/Asics/sneaker-store/Asics/asics-gel-quantum-360",
+      "alt": "Asics - asics-gel-quantum-360"
+    },
+    {
+      "filename": "asics-gel-resolution-9.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206881/sneaker-store/Asics/sneaker-store/Asics/asics-gel-resolution-9.jpg",
+      "public_id": "sneaker-store/Asics/sneaker-store/Asics/asics-gel-resolution-9",
+      "alt": "Asics - asics-gel-resolution-9"
+    },
+    {
+      "filename": "asics-gt2160-gold.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206882/sneaker-store/Asics/sneaker-store/Asics/asics-gt2160-gold.jpg",
+      "public_id": "sneaker-store/Asics/sneaker-store/Asics/asics-gt2160-gold",
+      "alt": "Asics - asics-gt2160-gold"
+    },
+    {
+      "filename": "asics-novablast-4.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206883/sneaker-store/Asics/sneaker-store/Asics/asics-novablast-4.jpg",
+      "public_id": "sneaker-store/Asics/sneaker-store/Asics/asics-novablast-4",
+      "alt": "Asics - asics-novablast-4"
+    }
+  ],
+  "jordan": [
+    {
+      "filename": "air-jordan-1-high.jpg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206884/sneaker-store/jordan/sneaker-store/jordan/air-jordan-1-high.jpg",
+      "public_id": "sneaker-store/jordan/sneaker-store/jordan/air-jordan-1-high",
+      "alt": "jordan - air-jordan-1-high"
+    },
+    {
+      "filename": "air-jordan-white-cement.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206885/sneaker-store/jordan/sneaker-store/jordan/air-jordan-white-cement.jpg",
+      "public_id": "sneaker-store/jordan/sneaker-store/jordan/air-jordan-white-cement",
+      "alt": "jordan - air-jordan-white-cement"
+    },
+    {
+      "filename": "jordan-air-jordan-1-high.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206886/sneaker-store/jordan/sneaker-store/jordan/jordan-air-jordan-1-high.jpg",
+      "public_id": "sneaker-store/jordan/sneaker-store/jordan/jordan-air-jordan-1-high",
+      "alt": "jordan - jordan-air-jordan-1-high"
+    },
+    {
+      "filename": "jordan-air-jordan-11-concord.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206886/sneaker-store/jordan/sneaker-store/jordan/jordan-air-jordan-11-concord.jpg",
+      "public_id": "sneaker-store/jordan/sneaker-store/jordan/jordan-air-jordan-11-concord",
+      "alt": "jordan - jordan-air-jordan-11-concord"
+    },
+    {
+      "filename": "jordan-air-jordan-13-bred.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206887/sneaker-store/jordan/sneaker-store/jordan/jordan-air-jordan-13-bred.jpg",
+      "public_id": "sneaker-store/jordan/sneaker-store/jordan/jordan-air-jordan-13-bred",
+      "alt": "jordan - jordan-air-jordan-13-bred"
+    },
+    {
+      "filename": "jordan-air-jordan-4-bred.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206888/sneaker-store/jordan/sneaker-store/jordan/jordan-air-jordan-4-bred.jpg",
+      "public_id": "sneaker-store/jordan/sneaker-store/jordan/jordan-air-jordan-4-bred",
+      "alt": "jordan - jordan-air-jordan-4-bred"
+    },
+    {
+      "filename": "jordan-air-jordan-5-fire.png",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206890/sneaker-store/jordan/sneaker-store/jordan/jordan-air-jordan-5-fire.png",
+      "public_id": "sneaker-store/jordan/sneaker-store/jordan/jordan-air-jordan-5-fire",
+      "alt": "jordan - jordan-air-jordan-5-fire"
+    },
+    {
+      "filename": "jordan-jumpman-mvp.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206891/sneaker-store/jordan/sneaker-store/jordan/jordan-jumpman-mvp.jpg",
+      "public_id": "sneaker-store/jordan/sneaker-store/jordan/jordan-jumpman-mvp",
+      "alt": "jordan - jordan-jumpman-mvp"
+    },
+    {
+      "filename": "jordan-spizike-low.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206892/sneaker-store/jordan/sneaker-store/jordan/jordan-spizike-low.jpg",
+      "public_id": "sneaker-store/jordan/sneaker-store/jordan/jordan-spizike-low",
+      "alt": "jordan - jordan-spizike-low"
+    },
+    {
+      "filename": "jordan-stadium-90.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206893/sneaker-store/jordan/sneaker-store/jordan/jordan-stadium-90.jpg",
+      "public_id": "sneaker-store/jordan/sneaker-store/jordan/jordan-stadium-90",
+      "alt": "jordan - jordan-stadium-90"
+    }
+  ],
+  "new-balance": [
+    {
+      "filename": "1906r-technical.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206894/sneaker-store/new-balance/sneaker-store/new-balance/1906r-technical.jpg",
+      "public_id": "sneaker-store/new-balance/sneaker-store/new-balance/1906r-technical",
+      "alt": "new-balance - 1906r-technical"
+    },
+    {
+      "filename": "2002r-phantom.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206895/sneaker-store/new-balance/sneaker-store/new-balance/2002r-phantom.jpg",
+      "public_id": "sneaker-store/new-balance/sneaker-store/new-balance/2002r-phantom",
+      "alt": "new-balance - 2002r-phantom"
+    },
+    {
+      "filename": "530-retro-runner.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206896/sneaker-store/new-balance/sneaker-store/new-balance/530-retro-runner.jpg",
+      "public_id": "sneaker-store/new-balance/sneaker-store/new-balance/530-retro-runner",
+      "alt": "new-balance - 530-retro-runner"
+    },
+    {
+      "filename": "550-white-green.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206897/sneaker-store/new-balance/sneaker-store/new-balance/550-white-green.jpg",
+      "public_id": "sneaker-store/new-balance/sneaker-store/new-balance/550-white-green",
+      "alt": "new-balance - 550-white-green"
+    },
+    {
+      "filename": "9060-sea-salt.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206898/sneaker-store/new-balance/sneaker-store/new-balance/9060-sea-salt.jpg",
+      "public_id": "sneaker-store/new-balance/sneaker-store/new-balance/9060-sea-salt",
+      "alt": "new-balance - 9060-sea-salt"
+    },
+    {
+      "filename": "991v2-slate.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206900/sneaker-store/new-balance/sneaker-store/new-balance/991v2-slate.jpg",
+      "public_id": "sneaker-store/new-balance/sneaker-store/new-balance/991v2-slate",
+      "alt": "new-balance - 991v2-slate"
+    },
+    {
+      "filename": "ct302-platform.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206901/sneaker-store/new-balance/sneaker-store/new-balance/ct302-platform.jpg",
+      "public_id": "sneaker-store/new-balance/sneaker-store/new-balance/ct302-platform",
+      "alt": "new-balance - ct302-platform"
+    },
+    {
+      "filename": "freash-foam-1080.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206902/sneaker-store/new-balance/sneaker-store/new-balance/freash-foam-1080.jpg",
+      "public_id": "sneaker-store/new-balance/sneaker-store/new-balance/freash-foam-1080",
+      "alt": "new-balance - freash-foam-1080"
+    },
+    {
+      "filename": "freash-foam-1080.jpg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206903/sneaker-store/new-balance/sneaker-store/new-balance/freash-foam-1080.jpg",
+      "public_id": "sneaker-store/new-balance/sneaker-store/new-balance/freash-foam-1080",
+      "alt": "new-balance - freash-foam-1080"
+    },
+    {
+      "filename": "fuelcell-elite.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206904/sneaker-store/new-balance/sneaker-store/new-balance/fuelcell-elite.jpg",
+      "public_id": "sneaker-store/new-balance/sneaker-store/new-balance/fuelcell-elite",
+      "alt": "new-balance - fuelcell-elite"
+    }
+  ],
+  "puma": [
+    {
+      "filename": "puma-lafrance-melo.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206905/sneaker-store/puma/sneaker-store/puma/puma-lafrance-melo.jpg",
+      "public_id": "sneaker-store/puma/sneaker-store/puma/puma-lafrance-melo",
+      "alt": "puma - puma-lafrance-melo"
+    },
+    {
+      "filename": "puma-mayze-platform.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206906/sneaker-store/puma/sneaker-store/puma/puma-mayze-platform.jpg",
+      "public_id": "sneaker-store/puma/sneaker-store/puma/puma-mayze-platform",
+      "alt": "puma - puma-mayze-platform"
+    },
+    {
+      "filename": "puma-nitro-2.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206907/sneaker-store/puma/sneaker-store/puma/puma-nitro-2.jpg",
+      "public_id": "sneaker-store/puma/sneaker-store/puma/puma-nitro-2",
+      "alt": "puma - puma-nitro-2"
+    },
+    {
+      "filename": "puma-og-blue.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206908/sneaker-store/puma/sneaker-store/puma/puma-og-blue.jpg",
+      "public_id": "sneaker-store/puma/sneaker-store/puma/puma-og-blue",
+      "alt": "puma - puma-og-blue"
+    },
+    {
+      "filename": "puma-palmero-leather.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206909/sneaker-store/puma/sneaker-store/puma/puma-palmero-leather.jpg",
+      "public_id": "sneaker-store/puma/sneaker-store/puma/puma-palmero-leather",
+      "alt": "puma - puma-palmero-leather"
+    },
+    {
+      "filename": "puma-rx-effect.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206910/sneaker-store/puma/sneaker-store/puma/puma-rx-effect.jpg",
+      "public_id": "sneaker-store/puma/sneaker-store/puma/puma-rx-effect",
+      "alt": "puma - puma-rx-effect"
+    },
+    {
+      "filename": "puma-slipstream-retro.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206911/sneaker-store/puma/sneaker-store/puma/puma-slipstream-retro.jpg",
+      "public_id": "sneaker-store/puma/sneaker-store/puma/puma-slipstream-retro",
+      "alt": "puma - puma-slipstream-retro"
+    },
+    {
+      "filename": "puma-suede-classic.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206912/sneaker-store/puma/sneaker-store/puma/puma-suede-classic.jpg",
+      "public_id": "sneaker-store/puma/sneaker-store/puma/puma-suede-classic",
+      "alt": "puma - puma-suede-classic"
+    },
+    {
+      "filename": "puma-super-team-navvy.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206913/sneaker-store/puma/sneaker-store/puma/puma-super-team-navvy.jpg",
+      "public_id": "sneaker-store/puma/sneaker-store/puma/puma-super-team-navvy",
+      "alt": "puma - puma-super-team-navvy"
+    },
+    {
+      "filename": "puma-velophasis-silver.jpeg",
+      "url": "https://res.cloudinary.com/des0lvjl7/image/upload/v1772206914/sneaker-store/puma/sneaker-store/puma/puma-velophasis-silver.jpg",
+      "public_id": "sneaker-store/puma/sneaker-store/puma/puma-velophasis-silver",
+      "alt": "puma - puma-velophasis-silver"
+    }
+  ]
+}
