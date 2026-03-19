@@ -22,6 +22,7 @@ const allowedOrigins = [
   'http://127.0.0.1:3000',
   'http://127.0.0.1:3001',
   'https://sneaker-hub-ecommerce.vercel.app/',  // Alternative Vercel frontend
+  'https://sneaker-hub-ecommerce.onrender.com', // Render deployment URL
   process.env.FRONTEND_URL, // Render/other frontend URL
   process.env.CORS_ORIGIN // Alternative environment variable
 ].filter(Boolean); // Remove undefined values
